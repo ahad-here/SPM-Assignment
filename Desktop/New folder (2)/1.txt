@@ -1,0 +1,5 @@
+git checkout SPM-3-user-login   # switch if needed
+echo "\nTest commit visible in Jira - $(date)" >> README.md   # or any file
+git add README.md
+git commit -m "SPM-3 Test commit to confirm linking in Development panel"
+git push
